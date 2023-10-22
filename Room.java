@@ -17,19 +17,16 @@ public class Room {
 	
 
 	public Room(int num , String type , int capacity , double price , String availibility){
-		availableRoom(num , type , capacity , price , availibility);
-	}
-
-	public void availableRoom(int num , String type , int capacity , double price , String availibility){
 		if(availibility.equals("Available"))
 		this.availibility = availibility;
 		else System.out.println("Unavailable Room");
 		this.num = num;
 		this.capacity = capacity;
 		this.type = type;
-		this.price = price; 
+		this.price = price;
 	}
-	
+
+
 	public int getnum(int num){
 		return this.num;
 	}
@@ -43,7 +40,8 @@ public class Room {
 		return this.price;
 	}
 	public String getAvailibility(String availibility){
-		return this.availibility;
+		return this.availibility;  
 	}
 
 }
+
