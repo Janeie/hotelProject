@@ -15,6 +15,7 @@ public class Reception{
 	Room room = new Room(120 , "suite" , 6 , 1200, "Available");
         Displayment displayment = new Displayment();
         displayment.printRoomInfo(room);
+	RoomsFile.rooms();
 	}
 
 
