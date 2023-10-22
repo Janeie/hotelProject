@@ -9,11 +9,11 @@ package hotelproject;
  * @author PC
  */
 public class Room {
-	private int num;
-	private String type;
-	private int capacity;
-	private double price;
-	private String availibility;
+	public int num;
+	public String type;
+	public int capacity;
+	public double price;
+	public String availibility;
 	
 
 	public Room(int num , String type , int capacity , double price , String availibility){
@@ -26,22 +26,7 @@ public class Room {
 		this.price = price;
 	}
 
-
-	public int getnum(int num){
-		return this.num;
-	}
-	public String getType(String type){
-		return this.type;
-	}
-	public int getCapacity(int capacity){
-		return this.capacity;
-	}
-	public double getPrice(double price){
-		return this.price;
-	}
-	public String getAvailibility(String availibility){
-		return this.availibility;  
-	}
+ 
 
 }
 
