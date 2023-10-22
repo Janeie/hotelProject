@@ -14,7 +14,7 @@ import java.io.IOException;
 public class RoomsFile {
     public static void rooms(){
         try {
-      File myObj = new File("filename.txt");
+      File myObj = new File("HotelRooms.txt");
       if (myObj.createNewFile()) {
         System.out.println("File created: " + myObj.getName());
       } else {
